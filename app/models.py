@@ -1,4 +1,4 @@
-game_board = {'x1': '', 'x2': '', 'x3': '', 'x4': '', 'x5': '', 'x6': '', 'x7': '', 'x8': '', 'x9': ''}
+game_board = {'x1': 'X', 'x2': 'X', 'x3': 'X', 'x4': 'X', 'x5': 'X', 'x6': 'X', 'x7': 'X', 'x8': 'X', 'x9': 'X'}
 
 def game(position, player):
     '''Takes in key/value pair, then updates the game board'''
