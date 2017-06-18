@@ -1,7 +1,6 @@
 {% extends "base.html" %}
 
-{%block content %}
-
+{% block content %}
   <div class="container-fluid" id="game-board">
     <div>
     <button type="button" class="btn-lg btn-primary">{{x1}}</button>
@@ -19,6 +18,6 @@
     <button type="button" class="btn-lg btn-primary">{{x9}}</button>
     </div>
   </div>
-<a href="/game/move?start=start"><button class="btn-lg btn-danger">Start Game!</button></a>
-
+  <h1>Player {{winner}} wins!</h1>
+<a href="/game/move?start=start"><button class="btn-lg btn-danger">New Game</button></a>
 {% endblock %}
