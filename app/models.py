@@ -12,5 +12,4 @@ def players_toggle(current_player):
 
     if current_player == 'A':
         return 'B'
-    else:
-        return 'A'
+    return 'A'
