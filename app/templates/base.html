@@ -12,26 +12,26 @@
         <style>
             body {text-align: center;}
             .error { color: red; }
-            #game-board {margin-top: 15rem;margin-bottom: 5rem;}
+            #game-board {margin-top: 10rem;margin-bottom: 5rem;}
         </style>
     </head>
 <body>
     <h1>Tic Tac Toe</h1>
   <div class="container-fluid" id="game-board">
     <div>
-    <a href='/x1?player=A' name="x1"><button type="button" class="btn-lg btn-primary">{{x1}}</button></a>
-    <button type="button" class="btn-lg btn-primary">{{x2}}</button>
-    <button type="button" class="btn-lg btn-primary">{{x3}}</button>
+    <a href='/game/move?move=x1'><button type="button" class="btn-lg btn-primary">{{x1}}</button></a>
+    <a href='/game/move?move=x2'><button type="button" class="btn-lg btn-primary">{{x2}}</button></a>
+    <a href='/game/move?move=x3'><button type="button" class="btn-lg btn-primary">{{x3}}</button></a>
     </div>
     <div>
-    <button type="button" class="btn-lg btn-primary">{{x4}}</button>
-    <button type="button" class="btn-lg btn-primary">{{x5}}</button>
-    <button type="button" class="btn-lg btn-primary">{{x6}}</button>
+    <a href='/game/move?move=x4'><button type="button" class="btn-lg btn-primary">{{x4}}</button></a>
+    <a href='/game/move?move=x5'><button type="button" class="btn-lg btn-primary">{{x5}}</button></a>
+    <a href='/game/move?move=x6'><button type="button" class="btn-lg btn-primary">{{x6}}</button></a>
     </div>
     <div>
-    <button type="button" class="btn-lg btn-primary">{{x7}}</button>
-    <button type="button" class="btn-lg btn-primary">{{x8}}</button>
-    <button type="button" class="btn-lg btn-primary">{{x9}}</button>
+    <a href='/game/move?move=x7'><button type="button" class="btn-lg btn-primary">{{x7}}</button></a>
+    <a href='/game/move?move=x8'><button type="button" class="btn-lg btn-primary">{{x8}}</button></a>
+    <a href='/game/move?move=x9'><button type="button" class="btn-lg btn-primary">{{x9}}</button></a>
     </div>
   </div>
 
